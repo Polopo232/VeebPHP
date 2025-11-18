@@ -59,3 +59,24 @@ li a:hover {
     border-radius: 10px;
     padding: 10px;
 }
+
+#apple_img {
+    width: 500px;
+    height: 500px;
+}
+
+.blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.blocks {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 300px;
+}

@@ -5,7 +5,6 @@
     <title>Opilane PHP tööd</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/dateStyle.css">
-    <script src="js/dateJS.js"></script>
 </head>
 <body>
 <!--head-->
@@ -26,12 +25,17 @@
         ?>
     </div>
     <div>
-        <img src="image/jabloko.jpg" alt="Õuna">
+        <img id="apple_img" src="image/jabloko.jpg" alt="Õuna">
+        <button onclick="näitaKuupaevJaAeg()">Näita kuupäeva ja aega</button>
+        <button onclick="kuniMärtsini()">Aeg kuni 15. märtsini</button>
+        <div id="output"></div>
     </div>
 </div>
 <?php
     include('footer.php')
 ?>
 
+<script src="js/dateJS.js"></script>
+<script src="js/videoScript.js"></script>
 </body>
 </html>
