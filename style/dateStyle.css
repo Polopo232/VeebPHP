@@ -1,0 +1,23 @@
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    max-width: 250px;
+    width: 100%;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
