@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab3c16ce-84da-4553-a972-ded281fd4c98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/opil_koduleht.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/opilJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/opilStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/matemfunk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="35kK1irfN42dlk6gA3NOc6ZmKJU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +42,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "matem__funktsioonid",
     "last_opened_file_path": "C:/Users/opilane/Downloads/VeebPHP",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -70,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763648415237</updated>
       <workItem from="1763648416294" duration="1353000" />
+      <workItem from="1764053412724" duration="3372000" />
     </task>
     <servers />
   </component>
