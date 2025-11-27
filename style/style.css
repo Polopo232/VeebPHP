@@ -120,3 +120,15 @@ li a:hover {
 .dropdown:hover .dropbtn {
     background-color: grey;
 }
+
+.pretty-img {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+}
+
+.pretty-img img {
+    height: 500px;
+}
