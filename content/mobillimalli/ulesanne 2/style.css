@@ -1,6 +1,3 @@
-/* Этот CSS предназначен для демонстрации структуры.
-   Замените его на стили из вашего выбранного шаблона. */
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,13 +6,12 @@ body {
 }
 
 #wrapper {
-    max-width: 1000px; /* Ограничение ширины для единого макета */
+    max-width: 1000px;
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* --- ХЕДЕР И НАВИГАЦИЯ --- */
 #main-header {
     background: #333;
     color: #fff;
@@ -47,13 +43,11 @@ body {
     border-bottom: 2px solid #ffcc00;
 }
 
-/* --- ОСНОВНОЙ КОНТЕНТ --- */
 #content {
     padding: 20px;
-    min-height: 500px; /* Чтобы футер не "прыгал" */
+    min-height: 500px;
 }
 
-/* --- ОДИН АНЕКДОТ --- */
 .anekdot-card {
     border: 1px solid #ccc;
     padding: 25px;
@@ -96,7 +90,6 @@ body {
     font-weight: bold;
 }
 
-/* --- ФУТЕР --- */
 #main-footer {
     background: #222;
     color: #aaa;
@@ -105,11 +98,10 @@ body {
     font-size: 0.85em;
 }
 
-/* --- МОБИЛЬНАЯ ОПТИМИЗАЦИЯ (Media Query) --- */
 @media (max-width: 600px) {
     #wrapper {
-        box-shadow: none; /* Удаляем тень на маленьких экранах */
-        margin: 0; /* Убираем центрирование, используем всю ширину */
+        box-shadow: none;
+        margin: 0;
         width: 100%;
     }
 
@@ -117,7 +109,6 @@ body {
         padding: 15px 10px;
     }
 
-    /* Навигация: делаем ссылки вертикально и на всю ширину */
     #main-nav ul {
         flex-direction: column;
         align-items: stretch;
@@ -125,7 +116,7 @@ body {
 
     #main-nav li {
         margin: 5px 0;
-        border-bottom: 1px solid #444; /* Разделитель для ссылок */
+        border-bottom: 1px solid #444;
     }
 
     #main-nav li:last-child {
@@ -133,14 +124,13 @@ body {
     }
 
     #main-nav a {
-        display: block; /* Ссылки занимают всю ширину */
+        display: block;
         padding: 10px 0;
         text-align: center;
     }
 
-    /* Основной контент и карточка анекдота */
     #content {
-        padding: 10px; /* Уменьшаем внутренние отступы */
+        padding: 10px;
     }
 
     .anekdot-card {
@@ -150,7 +140,7 @@ body {
     }
 
     .anekdot-body {
-        font-size: 1em; /* Немного уменьшаем шрифт для экономии места */
+        font-size: 1em;
         padding: 15px;
         margin: 15px 0;
     }
