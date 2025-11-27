@@ -15,6 +15,6 @@
             Optimaalsed mõõtmed algavad 600 ja lõpevad 1200 pikslitega. Kõik sõltub teksti pikkusest jms.
         </div>
         <div class="pretty-img">
-            <img src="../image/mobilli_prev.png" alt="">
+            <img src="../image/mobilli_prev.jpg" alt="">
         </div>
 </div>
