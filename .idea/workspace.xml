@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab3c16ce-84da-4553-a972-ded281fd4c98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/blankett.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/jalus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/nadalapäevad/esmaspaev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/nadalapäevad/kolmapaev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/nadalapäevad/neljapaev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/nadalapäevad/reede.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/nadalapäevad/teisipaev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/p2is.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/mobillimalli/style/kujundus.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/matemfunk.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/matemfunk.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -38,11 +47,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "matem__funktsioonid",
-    "last_opened_file_path": "C:/Users/opilane/Downloads/VeebPHP",
+    "git-widget-placeholder": "mobillimalli",
+    "last_opened_file_path": "C:/Users/opilane/Desktop/VeebPHP",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +79,7 @@
       <updated>1763648415237</updated>
       <workItem from="1763648416294" duration="1353000" />
       <workItem from="1764053412724" duration="9163000" />
+      <workItem from="1764244380755" duration="689000" />
     </task>
     <servers />
   </component>
