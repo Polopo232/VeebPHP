@@ -13,8 +13,8 @@
         <nav id="main-nav">
             <ul>
                 <li><a href="anekdot1.php">Štirletsi kohta</a></li>
-                <li><a href="anekdot2.php">Lihtsad anekdoodid</a></li>
-                <li><a href="anekdot3.php">Uued</a></li>
+                <li><a href="anekdot2.php">Lihtsad anekdoot</a></li>
+                <li><a href="anekdot3.php">Uus</a></li>
                 <li><a href="anekdot_classic.php">Klassika</a></li>
                 <li><a href="anekdot_it.php">Ilma poliitikata</a></li>
             </ul>

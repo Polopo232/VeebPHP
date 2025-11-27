@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <article class="anekdot-card">
-    <h2>Uued</h2>
+    <h2>Uus</h2>
     <div class="anekdot-body">
         <p>- Mul varastati pass ära! <br>
             - Kas politseis käisid? <br>
