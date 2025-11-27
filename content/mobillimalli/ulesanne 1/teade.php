@@ -4,12 +4,12 @@
 
 <div id="sisu">
     <?php
-    echo nl2br(file_get_contents("teade.txt"));
+    require("teade.txt");
     ?>
 </div>
 
 <div id="autor">
     <?php
-    echo nl2br(file_get_contents("autor.txt"));
+    require("autor.txt");
     ?>
 </div>
