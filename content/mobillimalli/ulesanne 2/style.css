@@ -104,3 +104,54 @@ body {
     padding: 15px;
     font-size: 0.85em;
 }
+
+/* --- МОБИЛЬНАЯ ОПТИМИЗАЦИЯ (Media Query) --- */
+@media (max-width: 600px) {
+    #wrapper {
+        box-shadow: none; /* Удаляем тень на маленьких экранах */
+        margin: 0; /* Убираем центрирование, используем всю ширину */
+        width: 100%;
+    }
+
+    #main-header {
+        padding: 15px 10px;
+    }
+
+    /* Навигация: делаем ссылки вертикально и на всю ширину */
+    #main-nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #main-nav li {
+        margin: 5px 0;
+        border-bottom: 1px solid #444; /* Разделитель для ссылок */
+    }
+
+    #main-nav li:last-child {
+        border-bottom: none;
+    }
+
+    #main-nav a {
+        display: block; /* Ссылки занимают всю ширину */
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Основной контент и карточка анекдота */
+    #content {
+        padding: 10px; /* Уменьшаем внутренние отступы */
+    }
+
+    .anekdot-card {
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+
+    .anekdot-body {
+        font-size: 1em; /* Немного уменьшаем шрифт для экономии места */
+        padding: 15px;
+        margin: 15px 0;
+    }
+}
