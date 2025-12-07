@@ -1,0 +1,237 @@
+body {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(purple, black);
+    color: white;
+    background-attachment: fixed;
+
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    margin: 0;
+    color: white;
+}
+
+header h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    flex: 1;
+    margin-left: -100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
+    gap: 20px;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+}
+nav ul li a:hover {
+    color: purple;
+    background: white;
+    transition: 0.2s;
+}
+
+#sisukiht {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+form {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form dt {
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+form input[type="submit"] {
+    background: white;
+    color: purple;
+    padding: 12px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: purple;
+    color: white;
+}
+
+#menyykiht {
+    width: 250px;
+    float: left;
+    margin-right: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+#menyykiht ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menyykiht ul li {
+    margin: 10px 0;
+}
+
+#menyykiht ul li a {
+    display: block;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+#menyykiht ul li a:hover {
+    background: white;
+    color: purple;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: white;
+    color: purple;
+    padding: 15px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.tooted_block {
+    margin-top: 30px;
+}
+
+.tooted_container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tooted_container ul li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: purple;
+    background: white;
+    border-radius: 4px;
+}
