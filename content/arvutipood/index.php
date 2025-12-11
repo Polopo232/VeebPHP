@@ -1,3 +1,4 @@
+<?php if (isset($_GET['code'])) {die(highlight_file(__FILE__, 1));}?>
 <?php
 
 global $yhendus;
@@ -66,6 +67,7 @@ if (isset($_REQUEST["id"])) {
             echo "<p>Linn: ".htmlspecialchars($linn)."</p>";
             echo "<p><img src='".htmlspecialchars($photo)."' alt='' style='max-width:200px;'></p>";
         }
+        $kask->close();
     }
 }
 
